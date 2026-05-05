@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="torqy">#bdf4ff</color>
+    <color name="main_color">#2199B2</color>
+    <color name="teal_attendance">#2E9CB1</color>
+    <color name="networking_green">#4CAF50</color>
+    <color name="oop_orange">#E67E22</color>
+    <color name="pe_red">#E74C3C</color>
+    <color name="delete_red_bg">#FFEBEE</color>
+    <color name="delete_red_text">#E74C3C</color>
+    <color name="edit_gray_bg">#F5F5F5</color>
+</resources>

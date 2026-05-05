@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/attendlylogo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:fontFamily="@font/montserrat_black"
+        android:layout_marginTop="-30dp"
+        android:text="Attendly"
+        android:textAlignment="center"
+        android:textColor="#2199B2"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-20dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Track your daily attendance"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Username:"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/edit_username"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_toEndOf="@+id/txt_username" />
+
+        <TextView
+            android:id="@+id/txt_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_username"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Password:"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_username"
+            android:layout_toEndOf="@+id/txt_password"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="337dp"
+            android:layout_height="58dp"
+            android:layout_below="@+id/edit_password"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="37dp"
+            android:backgroundTint="#2199B2"
+            android:text="Login"
+            android:fontFamily="@font/montserrat_black"
+            android:textSize="20dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_donthaveacc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_login"
+            android:fontFamily="@font/montserrat"
+            android:text="Don't have an account?"
+            android:textSize="16dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="83dp"
+            />
+
+        <TextView
+            android:id="@+id/txt_register"
+            android:layout_toEndOf="@+id/txt_donthaveacc"
+            android:layout_below="@+id/btn_login"
+            android:layout_marginTop="170dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="16dp"
+            android:textColor="#2199B2"
+            android:layout_marginLeft="10dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplicationTestThree" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/torqy</item>
+         <item name="colorPrimaryVariant">@color/torqy</item>
+         <item name="android:statusBarColor">@color/torqy</item>
+    </style>
+
+    <style name="Theme.MyApplicationTestThree" parent="Base.Theme.MyApplicationTestThree" />
+</resources>

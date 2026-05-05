@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2199B2"
+    >
+
+    <Button
+        android:id="@+id/btn_tap"
+        android:layout_width="413dp"
+        android:layout_height="729dp"
+        android:backgroundTint="#2199B2"
+        android:text="Tap Anywhere"
+        android:textSize="40dp"
+        android:fontFamily="@font/montserrat_semibold"
+        />
+
+</LinearLayout>
