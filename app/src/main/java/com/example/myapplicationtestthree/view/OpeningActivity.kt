@@ -1,9 +1,10 @@
-package com.example.myapplicationtestthree
+package com.example.myapplicationtestthree.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplicationtestthree.R
 
 class OpeningActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
