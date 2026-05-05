@@ -1,5 +1,7 @@
 package com.example.myapplicationtestthree.view
 
+import com.example.myapplicationtestthree.AttendanceApplication
+import com.example.myapplicationtestthree.R
 import android.content.Intent
 import android.os.Bundle
 import android.view.View

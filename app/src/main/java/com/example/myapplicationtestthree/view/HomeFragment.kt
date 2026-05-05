@@ -1,5 +1,8 @@
 package com.example.myapplicationtestthree.view
 
+import com.example.myapplicationtestthree.AttendanceApplication
+import com.example.myapplicationtestthree.R
+
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -50,7 +53,7 @@ class HomeFragment : Fragment(), HomeContract.View {
     }
 
     override fun showMessage(message: String) {
-        showToast(message) // Extension function — no Toast boilerplate
+        requireContext().showToast(message) // ← correct
     }
 
     override fun onDestroyView() {
